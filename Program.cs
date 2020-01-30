@@ -34,6 +34,14 @@ namespace Class_Project___Deliverable_2___Iterative_Statement
                     }
 
                 }
+                else if (input_value < 1)
+                {
+                    Console.WriteLine("Please choose a value between 1 - 100");
+                }
+                else if (input_value > 100)
+                {
+                    Console.WriteLine("Please choose a value between 1 - 100");
+                }
             }
 
             catch
